@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SportClubISS.Infrastructure.Commands.Base.Command" Collapsed="true">
+    <Position X="8.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\Commands\Base\Command.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SportClubISS.Infrastructure.Commands.LambdaCommand" Collapsed="true">
+    <Position X="8.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAQAAECAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\Commands\LambdaCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SportClubISS.Infrastructure.Services.CJsonSerializator" Collapsed="true">
+    <Position X="22" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACBAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\Services\CJsonSerializator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SportClubISS.Infrastructure.Services.Repository" Collapsed="true">
+    <Position X="20.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAASGAACgCCBYABAEAACIhASABgQQCAIwIARQAAABAA=</HashCode>
+      <FileName>Infrastructure\Services\Repository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SportClubISS.Infrastructure.Services.RepositoryData" Collapsed="true">
+    <Position X="22" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAIAAACAAAAAAAAAAAAAAGA=</HashCode>
+      <FileName>Infrastructure\Services\RepositoryData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SportClubISS.Models.Competitions.Competition" Collapsed="true">
+    <Position X="27.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEACIAAEEAAAEIBAAABACAQAAAAhAAAAAAAEAAFAAEA=</HashCode>
+      <FileName>Models\Competitions\Competition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SportClubISS.Models.Competitions.CompetitionResult" Collapsed="true">
+    <Position X="20.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAIAAIAAAAAAACAAADCAAAAAAAA=</HashCode>
+      <FileName>Models\Competitions\CompetitionResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SportClubISS.Models.Rating.CoachRating" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Rating\CoachRating.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SportClubISS.Models.Rating.FilterData" Collapsed="true">
+    <Position X="23.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Rating\FilterData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SportClubISS.Models.Rating.SportsmanRating" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Rating\SportsmanRating.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SportClubISS.Models.Coach" Collapsed="true">
+    <Position X="6" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAACA=</HashCode>
+      <FileName>Models\Coach.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SportClubISS.Models.Person" Collapsed="true">
+    <Position X="5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAIQIgEAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Person.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SportClubISS.Models.Specialization" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="23.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAIAAAEAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Specialization.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SportClubISS.Models.SportClub" Collapsed="true">
+    <Position X="27.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAASIAAAAEAAAAAACABAAAQAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Models\SportClub.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SportClubISS.Models.SportMember" Collapsed="true">
+    <Position X="5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAECAAAAAAAAAAAAAAAgBAAEAAAACAAEAAAA=</HashCode>
+      <FileName>Models\SportMember.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SportClubISS.Models.Sportsman" Collapsed="true">
+    <Position X="3.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAEAAAAAAAAAAAAAAAggAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Sportsman.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SportClubISS.ViewModels.Base.BaseUserControlViewModel" Collapsed="true">
+    <Position X="10" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABEEEAAABgAAAAQAABBEAABAAAAAAAAABA=</HashCode>
+      <FileName>ViewModels\Base\BaseUserControlViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SportClubISS.ViewModels.Base.ViewModel" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAIAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\Base\ViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SportClubISS.ViewModels.UserControlsViewModel.CoachViewModel" Collapsed="true">
+    <Position X="11" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAARAAAAABABEICAAEACQAIAAAgBAAgBAAAAAAAAAEA=</HashCode>
+      <FileName>ViewModels\UserControlsViewModel\CoachViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SportClubISS.ViewModels.UserControlsViewModel.CompetitionsViewModel" Collapsed="true">
+    <Position X="13.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IUAAIMAEcAQEEIBAgYgDIAQCgAChACABABgkACBAIHA=</HashCode>
+      <FileName>ViewModels\UserControlsViewModel\CompetitionsViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SportClubISS.ViewModels.UserControlsViewModel.RatesViewModel" Collapsed="true">
+    <Position X="15.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SAAABAAAQCAAAAAAQgABAAACAAABQAABCAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\UserControlsViewModel\RatesViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SportClubISS.ViewModels.UserControlsViewModel.SpecializationViewModel" Collapsed="true">
+    <Position X="4.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAACAAQAAAABAAABAAAAAAAAAEA=</HashCode>
+      <FileName>ViewModels\UserControlsViewModel\SpecializationViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SportClubISS.ViewModels.UserControlsViewModel.SportClubViewModel" Collapsed="true">
+    <Position X="6.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAACAAYAAAgBAAABAAAAAAAAAEA=</HashCode>
+      <FileName>ViewModels\UserControlsViewModel\SportClubViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SportClubISS.ViewModels.UserControlsViewModel.SportsmenViewModel" Collapsed="true">
+    <Position X="8.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQARAAAAEBAFEICAAEACQAIEgggBATgBAAgBAAAAIHA=</HashCode>
+      <FileName>ViewModels\UserControlsViewModel\SportsmenViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SportClubISS.ViewModels.MainWindowViewModel" Collapsed="true">
+    <Position X="17.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ADSAACMQRAATpIAABICBYBxCAAESGGAAEIAAAAAAAAg=</HashCode>
+      <FileName>ViewModels\MainWindowViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SportClubISS.Views.UserControls.CoachesUS" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="23.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\UserControls\CoachesUS.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SportClubISS.Views.UserControls.CompetitionsUC" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\UserControls\CompetitionsUC.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SportClubISS.Views.UserControls.RatesUC" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="27.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\UserControls\RatesUC.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SportClubISS.Views.UserControls.SportClubUS" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\UserControls\SportClubUS.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SportClubISS.Views.SpecializationUS" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\UserControls\SpecializationUS.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SportClubISS.Views.SportsmanUC" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="23.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\UserControls\SportsmanUC.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SportClubISS.Views.Windows.MainWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\Windows\MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SportClubISS.App" Collapsed="true">
+    <Position X="20.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="SportClubISS.Models.Rating.IRating" Collapsed="true">
+    <Position X="20.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Rating\IRating.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="SportClubISS.Models.Competitions.CompetitionStatus" Collapsed="true">
+    <Position X="20.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAQAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Competitions\CompetitionStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="SportClubISS.Models.Rating.FilterAction" Collapsed="true">
+    <Position X="20.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Rating\FilterData.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
